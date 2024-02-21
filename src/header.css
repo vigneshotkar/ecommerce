@@ -1,0 +1,25 @@
+nav.navbar {
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px #ddd;
+    z-index: 999;
+    width: 100%;
+}
+ul li a.nav-link {
+    color: #000;
+}
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0 !important;
+    
+}
+.nav-link:focus, .nav-link:hover {
+    color: none;
+}
+a.nav-link:hover {
+    color: #000;
+}
+.nav-link:focus, .nav-link:hover {
+    color: #000 !important;
+}

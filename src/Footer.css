@@ -1,0 +1,161 @@
+.mainDiv{
+    background-color: #000;
+    padding: 50px 0;
+}
+.mainDiv {
+    background-color: #000;
+    padding: 40px 0;
+    width: 100%;
+    float: left;
+}
+.Flex-D{
+    width: 100%;
+    display: flex;
+}
+.img-text ul {
+    list-style: none;
+}
+.img-text ul li {
+    float: left;
+}
+.img-text ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 16px;
+    font-size: 14px;
+}
+.img-home ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 16px;
+    font-size: 14px;
+}
+.img {
+    width: 40%;
+    text-align: center;
+    padding-left: 20px;
+    margin-top: 1rem;
+}
+.img p {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 20px;
+    border-bottom: 1px solid #ddd;
+    max-width: 400px 
+}
+.img-home ul li {
+    list-style: none;
+    float: left;
+}
+/* --------------------------home start css-------------------------- */
+.carousel img {
+    width: 100%;
+}
+.carousel-caption {
+    right: 36rem !important;
+    bottom: 8rem !important;
+    text-align: left !important;
+}
+
+.carousel-caption h3 {
+    font-size: 50px;
+    color: #ffff;
+    font-weight: bold;
+    float: left !important;
+}
+
+.carousel-caption p {
+    color: #070707;
+    font-weight: 500;
+    float: left !important;
+}
+button.button {
+    float: left;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 7px 20px 7px 20px;
+}
+/* ____________________________buy___________________________________ */
+
+.Price {
+    width: 100%;
+    display: flex;
+}
+
+.NINGALA {
+    width: 40%;
+}
+
+.NING {
+    width: 60%;
+    padding: 5rem;
+}
+
+.NINGALA img {
+    width: 100%;
+    padding: 35px;
+    display: table;
+    margin: 0 auto;
+}
+
+section.Sec-1 {
+    width: 100%;
+    float: left;
+    margin-top: 5rem;
+}
+.NING h2 {
+    font-size: 30px;
+    color: #2a3986;
+    font-weight: 700;
+}
+
+.NING p {
+    color: #000;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.NING h4 {
+    font-size: 21px;
+}
+
+.NING h5 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #2a3986;
+}
+/* -------------------------buy------------------------------------- */
+
+.Form-react {
+    display: table;
+    margin: 0 auto;
+    width: 36%;
+    border: 2px solid #ddd;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+    padding: 24px;
+    border-radius: 15px;
+}
+.Form-react label.form-label {
+    color: #000;
+    font-weight: 600;
+}
+
+.Form-react input#formBasicEmail {
+    color: #030303 !important;
+}
+
+button.btn.btn-primary {
+    padding: 7px 30px 8px 30px;
+}
+
+button.btn.btn-primary:hover {
+    background-color: #000;
+}
+.form-check input#formBasicCheckbox {
+     border-color: #000;
+    /* background-color: #000; */
+}
+
