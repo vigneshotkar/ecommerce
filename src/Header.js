@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom"
 import "./header.css"
-import header from './Group 9968.png'
-
+import fashion from './pick.png'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -9,10 +8,10 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function BasicExample() {
   return (
-    <div className="header">
+    <div>
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-      <img src={header}></img>
+      <img src={fashion}></img>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

@@ -1,16 +1,19 @@
+
 .mainDiv{
-    background-color: #000;
+    background-color: #000 !important;
     padding: 50px 0;
 }
 .mainDiv {
-    background-color: #000;
+    background-color: #000 !important;
     padding: 40px 0;
     width: 100%;
-    float: left;
 }
 .Flex-D{
     width: 100%;
     display: flex;
+}
+hr.line {
+    border: 1px solid #ff8900;
 }
 .img-text ul {
     list-style: none;
@@ -23,66 +26,154 @@
     color: #fff;
     padding: 16px;
     font-size: 14px;
+    font-size: 14px;font-family: "Playfair Display", serif;
+
 }
 .img-home ul li a {
     text-decoration: none;
     color: #fff;
-    padding: 16px;
     font-size: 14px;
+    font-weight: 500;
+    font-family: "Playfair Display", serif;
 }
-.img {
-    text-align: center;
-    padding-left: 20px;
-    margin-top: 1rem;
+.img-home h2 {
+    font-size: 25px;
+    margin-top: 10px;
+    font-weight: 500;
+    font-family: "Playfair Display", serif;
 }
 .img p {
     color: #fff;
     font-size: 14px;
-    margin-top: 20px;
-    max-width: 465px;
     font-weight: 500;
+    font-family: "Playfair Display", serif;
+
+}
+.img {
+    text-align: center;
+    margin-top: 25px;
 }
 .img-home ul li {
     list-style: none;
+    padding: 12px;
     float: left;
 }
-hr.line-main {
-    border: 1px solid #f8f3f3;
-    width: 90%;
+.Rights {
     text-align: center;
-    align-items: center;
-    display: inline-block;
+    background-color: #000;
+    padding: 10px;
+    border: 1px solid #ffffff1c;
+}
+
+.Rights h4 {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Playfair Display';
 }
 /* --------------------------home start css-------------------------- */
-.carousel img {
-    width: 100%;
-}
+
 .carousel-caption {
-    right: 36rem !important;
-    bottom: 8rem !important;
-    text-align: left !important;
+    bottom: 5.25rem !important;
 }
 
 .carousel-caption h3 {
-    font-size: 50px;
+    font-size: 40px;
     color: #ffff;
     font-weight: bold;
-    float: left !important;
+    font-family: "Playfair Display", serif;
 }
 
 .carousel-caption p {
-    color: #070707;
-    font-weight: 500;
-    float: left !important;
+    color: #f4f4f4;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Playfair Display", serif;
+
 }
-button.button {
-    float: left;
-    background-color: #dc3545;
-    border-color: #dc3545;
+
+button.btn.btn-primary  {
+    background-color: transparent;
+    border-color: #0f0e0c;
     font-size: 16px;
     font-weight: 500;
-    padding: 7px 20px 7px 20px;
+    padding: 7px 20px 7px 20px !important;
+    font-family: 'Playfair Display';
+    
 }
+button.btn.btn-primary:hover {
+    border-color: #0f0e0c !important;
+}
+
+.section-2 {
+    background-color: #000000;
+    padding: 56px;
+}
+
+.shoping {
+    padding: 5rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.shoping h3 {
+    color: #fff;
+    font-size: 42px;
+    font-weight: 400;
+    font-family: "Playfair Display", serif;
+}
+
+.shoping p {
+    color: #fff;
+    margin-top: 20px;
+    font-family: "Playfair Display", serif;
+}
+.shoping-img {
+    display: table;
+    margin: 0 auto;
+}
+
+p.p-1 {
+    margin-top: 4rem;
+}
+
+.section-3 {
+    padding: 50px 0;
+    background-color: #0f0e0c;
+}
+
+.section-4 {
+    padding: 60px 0;
+    background-color: #0f0e0c;
+}
+
+.world h2 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 400;
+    font-family: "Playfair Display", serif;
+}
+
+.card-1 {
+    padding-top: 6rem;
+}
+
+.card-1 h4 {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Playfair Display", serif;
+}
+
+.card-1 p {
+    font-size: 13px;
+    color: #ffffff5c;
+    font-weight: 400;
+    margin-top: 18px;
+    font-family: "Playfair Display", serif;
+}
+
 /* ____________________________buy___________________________________ */
 
 .Price {
