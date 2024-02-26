@@ -2,60 +2,55 @@ import { Link } from "react-router-dom"
 import "./header.css"
 import header from './Group 9968.png'
 
-function Header()
-{
-    return(
-        
-        <div>
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
-      <nav className="navbar navbar-expand-lg navbar-dark  text-capitalize">
-      <div className="container">
+function BasicExample() {
+  return (
+    <div className="header">
+    <Navbar expand="lg" className="bg-body-tertiary">
+      <Container>
       <img src={header}></img>
-      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span className="navbar-toggler-icon"></span>
-      </button>
-      <div className="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul className="navbar-nav ml-auto">
-          <li className="nav-item active">
-            <Link to="/" className="nav-link">Home</Link>
-          </li>
-          <li className="nav-item">
-            <Link to="Product" className="nav-link">Product</Link>
-          </li>
-          
-           <li className="nav-item">
-            <Link to="Buy" className="nav-link">Buy</Link>
-          </li>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <ul className="Ul-main">
+            <li className="nav-item">
+            <Link to="/">Home</Link>
+            </li>
 
             <li className="nav-item">
-            <Link to="Contact" className="nav-link">Contact</Link>
-          </li>
+            <Link to="Product">Product</Link>
+            </li>
 
-          <li className="nav-item">
-            <Link to="Electronics" className="nav-link">Electronics</Link>
-          </li>
+            <li className="nav-item">
+            <Link to="Buy">Buy</Link>
+            </li>
 
-          <li className="nav-item">
-            <Link to="Womens1" className="nav-link">Womens1</Link>
-          </li>
-          <li className="nav-item">
-            <Link to="Jewelery" className="nav-link">Jewelery</Link>
-          </li>
+            <li className="nav-item">
+            <Link to="Contact">Contact</Link>
+            </li>
 
-          <li className="nav-item dropdown">
-            <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-              Dropdown link
-            </a>
-
-          </li>
-          <li>
-            <button type="button" className="btn btn-danger">Appointment</button>
-          </li>
-        </ul>
-      </div>
+            <li className="nav-item">
+            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+             <Link to="Jewelery">Jewelery</Link>
+              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action/3.4">
+                Separated link
+              </NavDropdown.Item>
+            </NavDropdown>
+            </li>
+            </ul>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
     </div>
-    </nav>
-        </div>
-    )
+  );
 }
-export default Header
+
+export default BasicExample;

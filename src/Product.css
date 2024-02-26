@@ -29,3 +29,6 @@ card {
    font-size: 13px !important;
    color: #000 !important;
 }
+img.card-img-top:hover {
+   transform: scale(1.2);
+}
